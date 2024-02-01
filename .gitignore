@@ -1,0 +1,36 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and do not need to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform directories
+.terraform
+
+# Ignore terraform log files
+terraform.log
+
+# Ignore .tfvars files that are used to override variable values
+*.tfvars
+
+# Ignore files with sensitive information such as AWS credentials, which may be shared inadvertently
+*.pem
+*.pem.*
+*.key
+*.key.*
+*.cert
+*.cert.*
+
+# Ignore the .idea directory for JetBrains IDEs
+.idea/
+
