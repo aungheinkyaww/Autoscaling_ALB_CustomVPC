@@ -17,7 +17,7 @@ resource "aws_launch_configuration" "webserver-launch-config" {
 # store the terraform state file in s3
 terraform {
   backend "s3" {
-    bucket = "ahk-terraform-state-file-bucket"
+    bucket = "ahkcloud-terraform-state-file-bucket"
     key = "state/terraform.tfstate"
     region = "ap-southeast-1"
     profile = "ahkcloud_admin"
