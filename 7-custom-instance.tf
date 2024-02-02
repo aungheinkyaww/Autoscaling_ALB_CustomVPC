@@ -20,7 +20,7 @@ terraform {
     bucket = "ahk-terraform-state-file-bucket"
     key = "state/terraform.tfstate"
     region = "ap-southeast-1"
-    profile = "terraform-user"
+    profile = "ahkcloud_admin"
     
   }
 }
