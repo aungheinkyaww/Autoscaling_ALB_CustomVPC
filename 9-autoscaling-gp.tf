@@ -28,7 +28,7 @@ resource "aws_lb_target_group" "TG-tf" {
   vpc_id     = aws_vpc.customvpc.id
   health_check {
     interval            = 30
-   # path                = "/index.html"
+    path                = "/
     port                = 80
     healthy_threshold   = 2
     unhealthy_threshold = 2
